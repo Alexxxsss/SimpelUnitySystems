@@ -1,6 +1,6 @@
 /*
 
-This is a super basic Door open system.
+This is a super basic Door open and close system.
 
 The script needs to be in your character and the door you want to open
 needs to have a trigger collider and a tag.
