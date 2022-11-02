@@ -1,3 +1,5 @@
+//To Enable the camera in unity Netcode (The camera must be disbled)
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +12,6 @@ public class NetworkCamera : NetworkBehaviour
     {
         if (IsLocalPlayer)
         {
-            Camera.SetActive(false);
             StartCoroutine(Delay(0.1f));
         }
     }
