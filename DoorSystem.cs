@@ -12,7 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorController : MonoBehaviour
+public class DoorSystem : MonoBehaviour
 {
     //Public
     public KeyCode openBind;
